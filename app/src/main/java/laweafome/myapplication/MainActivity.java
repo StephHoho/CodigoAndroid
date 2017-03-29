@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
         der.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
                 String mensaje= "der";
                 com.getInstance().enviar(mensaje);
             }
